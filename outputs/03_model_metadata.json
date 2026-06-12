@@ -1,0 +1,26 @@
+{
+  "best_model": "Random Forest",
+  "target": "readiness_label",
+  "features": [
+    "actor",
+    "region",
+    "total_cost",
+    "output_value",
+    "margin",
+    "rc_ratio",
+    "margin_ratio",
+    "cost_per_quantity",
+    "output_per_quantity",
+    "asset_utilization",
+    "labor_cost_share",
+    "building_rent_share",
+    "land_lease_share",
+    "supporting_equipment_share",
+    "equipment_rent_share",
+    "dea_score",
+    "rc_viability_score",
+    "asset_utilization_score",
+    "crisis_resilience_score"
+  ],
+  "note": "Evaluation uses pseudo labels from Notebook 02, not external ground truth."
+}

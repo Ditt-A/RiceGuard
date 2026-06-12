@@ -1,0 +1,10 @@
+{
+  "silhouette_score": 0.41542162072015293,
+  "formula": {
+    "dea_score": 0.35,
+    "rc_viability_score": 0.25,
+    "crisis_resilience_score": 0.2,
+    "asset_utilization_score": 0.1,
+    "cluster_support_score": 0.1
+  }
+}

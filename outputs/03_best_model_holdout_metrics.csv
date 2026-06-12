@@ -1,0 +1,2 @@
+best_model,accuracy,balanced_accuracy,f1_macro,f1_weighted
+Logistic Regression,0.9746192893401016,0.9831168831168832,0.9734060275632288,0.9746593528750693

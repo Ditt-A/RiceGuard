@@ -1,0 +1,7 @@
+{
+  "best_model": "Logistic Regression",
+  "accuracy": 0.9746192893401016,
+  "balanced_accuracy": 0.9831168831168832,
+  "f1_macro": 0.9734060275632288,
+  "f1_weighted": 0.9746593528750693
+}

@@ -1,0 +1,119 @@
+{
+  "Farmer": {
+    "cost_cols": [
+      "land_lease_value_idr",
+      "labor_cost_idr",
+      "seed_purchase_value_idr",
+      "fertilizer_purchase_value_idr",
+      "pesticide_purchase_value_idr",
+      "equipment_rent_value_idr"
+    ],
+    "output_cols": [
+      "production_value_idr"
+    ],
+    "dea_inputs": [
+      "land_area",
+      "land_lease_value_idr",
+      "labor_cost_idr",
+      "seed_purchase_value_idr",
+      "fertilizer_purchase_value_idr",
+      "pesticide_purchase_value_idr",
+      "equipment_rent_value_idr"
+    ],
+    "dea_outputs": [
+      "production_value_idr"
+    ],
+    "quantity_col": "land_area",
+    "asset_col": "land_area"
+  },
+  "Rice Miller": {
+    "cost_cols": [
+      "value_of_milled_grains_idr",
+      "labor_cost_idr",
+      "supporting_equipment_cost_idr"
+    ],
+    "output_cols": [
+      "value_of_milled_rice_idr",
+      "total_revenue_of_milling_machine_idr"
+    ],
+    "dea_inputs": [
+      "number_of_machines",
+      "value_of_milled_grains_idr",
+      "labor_cost_idr",
+      "supporting_equipment_cost_idr"
+    ],
+    "dea_outputs": [
+      "value_of_milled_rice_idr",
+      "total_revenue_of_milling_machine_idr"
+    ],
+    "quantity_col": "amount_of_milled_rice",
+    "asset_col": "number_of_machines"
+  },
+  "Middlemen": {
+    "cost_cols": [
+      "total_rice_purchase_value_idr",
+      "building_rent_cost_idr",
+      "labor_cost_idr",
+      "supporting_equipment_cost_idr"
+    ],
+    "output_cols": [
+      "value_of_rice_sold_idr"
+    ],
+    "dea_inputs": [
+      "total_rice_purchase_kg",
+      "total_rice_purchase_value_idr",
+      "building_rent_cost_idr",
+      "labor_cost_idr",
+      "supporting_equipment_cost_idr"
+    ],
+    "dea_outputs": [
+      "value_of_rice_sold_idr"
+    ],
+    "quantity_col": "total_rice_purchase_kg",
+    "asset_col": null
+  },
+  "Wholesaler": {
+    "cost_cols": [
+      "value_of_rice_purchase_idr",
+      "building_rent_cost_idr",
+      "labor_cost_idr",
+      "supporting_equipment_cost_idr"
+    ],
+    "output_cols": [
+      "value_of_rice_sold_idr"
+    ],
+    "dea_inputs": [
+      "value_of_rice_purchase_idr",
+      "building_rent_cost_idr",
+      "labor_cost_idr",
+      "supporting_equipment_cost_idr"
+    ],
+    "dea_outputs": [
+      "value_of_rice_sold_idr"
+    ],
+    "quantity_col": null,
+    "asset_col": null
+  },
+  "Retail": {
+    "cost_cols": [
+      "value_of_rice_purchase_idr",
+      "building_rent_cost_idr",
+      "labor_cost_idr",
+      "supporting_equipment_cost_idr"
+    ],
+    "output_cols": [
+      "value_of_rice_sold_idr"
+    ],
+    "dea_inputs": [
+      "value_of_rice_purchase_idr",
+      "building_rent_cost_idr",
+      "labor_cost_idr",
+      "supporting_equipment_cost_idr"
+    ],
+    "dea_outputs": [
+      "value_of_rice_sold_idr"
+    ],
+    "quantity_col": null,
+    "asset_col": null
+  }
+}

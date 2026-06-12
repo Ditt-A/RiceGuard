@@ -1,0 +1,23 @@
+{
+  "n_rows": 787,
+  "n_columns": 31,
+  "actors": [
+    "Farmer",
+    "Middlemen",
+    "Retail",
+    "Rice Miller",
+    "Wholesaler"
+  ],
+  "regions": [
+    "Garut",
+    "Indramayu",
+    "Karawang",
+    "Subang",
+    "Tasikmalaya"
+  ],
+  "generated_outputs": [
+    "01_consolidated_raw.csv",
+    "01_summary_by_actor_region.csv",
+    "01_actor_config.json"
+  ]
+}
