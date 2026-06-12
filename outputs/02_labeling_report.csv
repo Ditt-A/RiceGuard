@@ -1,4 +1,4 @@
-readiness_label,count
-Conditional,441
-Recommended,278
-Not Recommended,68
+readiness_label,count,share
+Not Recommended,128,0.16264294790343076
+Conditional,314,0.39898348157560354
+Recommended,345,0.4383735705209657

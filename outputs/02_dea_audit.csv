@@ -1,0 +1,6 @@
+actor,n,input_cols,output_cols,dea_missing_score,dea_score_median
+Farmer,400,"land_area, land_lease_value_idr, labor_cost_idr, seed_purchase_value_idr, fertilizer_purchase_value_idr, pesticide_purchase_value_idr, equipment_rent_value_idr",production_value_idr,0,0.5342363487881042
+Rice Miller,105,"number_of_machines, value_of_milled_grains_idr, labor_cost_idr, supporting_equipment_cost_idr","value_of_milled_rice_idr, total_revenue_of_milling_machine_idr",0,0.9903607591533486
+Middlemen,104,"total_rice_purchase_kg, total_rice_purchase_value_idr, building_rent_cost_idr, labor_cost_idr, supporting_equipment_cost_idr",value_of_rice_sold_idr,0,0.9202668322465999
+Wholesaler,76,"value_of_rice_purchase_idr, building_rent_cost_idr, labor_cost_idr, supporting_equipment_cost_idr",value_of_rice_sold_idr,0,0.5482753136305745
+Retail,102,"value_of_rice_purchase_idr, building_rent_cost_idr, labor_cost_idr, supporting_equipment_cost_idr",value_of_rice_sold_idr,0,0.8372906022094331
