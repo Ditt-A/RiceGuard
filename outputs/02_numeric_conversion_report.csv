@@ -1,4 +1,5 @@
 column,new_na_after_numeric_conversion
+source_row,0
 dmu,0
 land_area,0
 land_lease_value_idr,0
@@ -8,6 +9,8 @@ fertilizer_purchase_value_idr,0
 pesticide_purchase_value_idr,0
 equipment_rent_value_idr,0
 production_value_idr,0
+dmu_original,0
+dmu_auto_assigned,0
 number_of_machines,0
 value_of_milled_grains_idr,0
 amount_of_milled_rice,0

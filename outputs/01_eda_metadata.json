@@ -1,6 +1,7 @@
 {
-  "n_rows": 787,
-  "n_columns": 31,
+  "notebook": "01_data_understanding_visualization_REVISED_v5",
+  "n_rows": 815,
+  "n_columns": 34,
   "actors": [
     "Farmer",
     "Middlemen",
@@ -15,9 +16,19 @@
     "Subang",
     "Tasikmalaya"
   ],
+  "actor_counts": {
+    "Farmer": 400,
+    "Rice Miller": 105,
+    "Middlemen": 104,
+    "Wholesaler": 104,
+    "Retail": 102
+  },
+  "auto_dmu_assigned_total": 28,
+  "parser_note": "Rows with valid payload but blank dmu are retained and assigned sequential dmu within actor-region.",
   "generated_outputs": [
     "01_consolidated_raw.csv",
     "01_summary_by_actor_region.csv",
+    "01_parser_audit.csv",
     "01_actor_config.json"
   ]
 }

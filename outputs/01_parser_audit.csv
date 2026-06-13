@@ -1,0 +1,6 @@
+sheet,actor,rows_parsed,auto_dmu_assigned,columns
+Farmer Data,Farmer,400,0,14
+Rice Miller Data,Rice Miller,105,0,13
+Middlemen Data,Middlemen,104,0,14
+Wholesaler Data,Wholesaler,104,28,12
+Retail Data,Retail,102,0,12
